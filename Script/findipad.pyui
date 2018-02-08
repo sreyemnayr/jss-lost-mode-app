@@ -1,0 +1,256 @@
+[
+{
+"nodes" : [
+{
+"nodes" : [
+
+],
+"frame" : "{{6, 0}, {762, 1024}}",
+"class" : "View",
+"attributes" : {
+"flex" : "WH",
+"frame" : "{{334, 462}, {100, 100}}",
+"background_color" : "RGBA(0.202830,0.202830,0.202830,1.000000)",
+"class" : "View",
+"name" : "view1",
+"uuid" : "40C8C1E2-6FFF-4EAE-A184-6CB9DEC917F9"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{33, 123}, {716, 61}}",
+"class" : "TextField",
+"attributes" : {
+"uuid" : "62A772CC-0707-40FF-A13B-0C7E13222A88",
+"flex" : "W",
+"frame" : "{{170, 254}, {200, 32}}",
+"custom_attributes" : "",
+"alignment" : "center",
+"autocorrection_type" : "default",
+"text" : "",
+"placeholder" : "Name",
+"font_name" : "AmericanTypewriter",
+"spellchecking_type" : "default",
+"class" : "TextField",
+"name" : "name",
+"font_size" : 29
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{33, 286}, {373, 84}}",
+"class" : "Button",
+"attributes" : {
+"action" : "enable",
+"flex" : "WR",
+"frame" : "{{230, 254}, {80, 32}}",
+"tint_color" : "RGBA(0.979592,1.000000,1.000000,1.000000)",
+"title" : "Enable Lost Mode",
+"uuid" : "F702B01E-A841-4E86-8D77-91578AF609B7",
+"class" : "Button",
+"background_color" : "RGBA(0.596788,0.768868,0.252628,1.000000)",
+"name" : "go",
+"font_size" : 22
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{414, 286}, {335, 84}}",
+"class" : "Button",
+"attributes" : {
+"action" : "disable",
+"flex" : "WL",
+"frame" : "{{230, 254}, {80, 32}}",
+"tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+"title" : "Disable Lost Mode",
+"uuid" : "F702B01E-A841-4E86-8D77-91578AF609B7",
+"class" : "Button",
+"background_color" : "RGBA(1.000000,0.371429,0.371429,1.000000)",
+"name" : "go",
+"font_size" : 22
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{33, 234}, {716, 37}}",
+"class" : "TextField",
+"attributes" : {
+"uuid" : "62A772CC-0707-40FF-A13B-0C7E13222A88",
+"font_size" : 17,
+"frame" : "{{170, 254}, {200, 32}}",
+"alignment" : "center",
+"autocorrection_type" : "default",
+"text" : "Please Return to Mr. Ryan",
+"placeholder" : "",
+"font_name" : "<System>",
+"spellchecking_type" : "default",
+"class" : "TextField",
+"name" : "message",
+"flex" : "W"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{33, 411}, {703, 583}}",
+"class" : "TextView",
+"attributes" : {
+"uuid" : "D4710995-D8C4-48F9-B39A-58A8C69A0B63",
+"font_size" : 17,
+"frame" : "{{164, 160}, {200, 200}}",
+"editable" : false,
+"alignment" : "left",
+"autocorrection_type" : "default",
+"text_color" : "RGBA(1.000000,0.980952,0.971429,1.000000)",
+"font_name" : "<System>",
+"spellchecking_type" : "default",
+"class" : "TextView",
+"name" : "textview",
+"flex" : "WH"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{33, 21}, {716, 94}}",
+"class" : "Label",
+"attributes" : {
+"flex" : "W",
+"name" : "label2",
+"text_color" : "RGBA(1.000000,0.747619,0.242857,1.000000)",
+"frame" : "{{309, 496}, {150, 32}}",
+"uuid" : "DC36AD35-6696-49E7-9B4B-5C18E08D0C6C",
+"class" : "Label",
+"alignment" : "center",
+"text" : "Lost Mode Helper",
+"font_size" : 44,
+"font_name" : "Futura-Bold"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{77, 192}, {630, 34}}",
+"class" : "Slider",
+"attributes" : {
+"flex" : "W",
+"continuous" : true,
+"action" : "slider_change",
+"frame" : "{{284, 495}, {200, 34}}",
+"uuid" : "DC51C008-7DBF-4B29-9B60-7B84FD38B703",
+"class" : "Slider",
+"value" : 0.080000000000000002,
+"name" : "slider"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{273, 99}, {272, 243}}",
+"class" : "ImageView",
+"attributes" : {
+"flex" : "LRTB",
+"alpha" : 0.80000000000000004,
+"frame" : "{{334, 462}, {100, 100}}",
+"tint_color" : "RGBA(0.625000,1.000000,0.875000,1.000000)",
+"class" : "ImageView",
+"uuid" : "04C8C55F-369F-42AC-AD77-731CFD516131",
+"name" : "loading",
+"image_name" : "iob:load_a_256"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{715, 21}, {34, 34}}",
+"class" : "Button",
+"attributes" : {
+"flex" : "L",
+"action" : "show_settings",
+"font_size" : 15,
+"frame" : "{{344, 496}, {80, 32}}",
+"tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+"title" : "",
+"uuid" : "FC6F762E-3ED5-494C-B823-1C383A1748E7",
+"class" : "Button",
+"name" : "settingsBtn",
+"image_name" : "iob:ios7_cog_256"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{715, 192}, {34, 34}}",
+"class" : "Button",
+"attributes" : {
+"flex" : "L",
+"action" : "slider_up",
+"font_size" : 15,
+"frame" : "{{344, 496}, {80, 32}}",
+"tint_color" : "RGBA(1.000000,0.794118,0.382353,1.000000)",
+"title" : "",
+"uuid" : "6E6833EC-849F-4285-A9E7-8199DBA3CCB4",
+"class" : "Button",
+"name" : "up",
+"image_name" : "iob:plus_circled_256"
+},
+"selected" : false
+},
+{
+"nodes" : [
+
+],
+"frame" : "{{33, 192}, {36, 34}}",
+"class" : "Button",
+"attributes" : {
+"flex" : "R",
+"font_size" : 15,
+"action" : "slider_down",
+"frame" : "{{344, 496}, {80, 32}}",
+"tint_color" : "RGBA(1.000000,0.724638,0.173913,1.000000)",
+"title" : "",
+"uuid" : "0620E9A5-5C47-405B-8B1D-29A121153225",
+"class" : "Button",
+"name" : "down",
+"image_name" : "iob:minus_circled_256"
+},
+"selected" : true
+}
+],
+"frame" : "{{0, 0}, {768, 1024}}",
+"class" : "View",
+"attributes" : {
+"name" : "Lost Mode Helper",
+"enabled" : true,
+"background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+"tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+"border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+"flex" : ""
+},
+"selected" : false
+}
+]
